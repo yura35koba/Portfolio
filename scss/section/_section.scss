@@ -1,0 +1,40 @@
+.section {
+  padding-top: 50px;
+  padding-bottom: 60px;
+
+  @media(min-width: 1200px){
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
+  }
+
+.section--bottom__line{
+  border-bottom: 1px solid #e9eff3;
+}
+
+.section--bg-laptop{
+  @media(min-width: 1500px){
+    background-image: url("../img/bg/laptop.png");
+    background-repeat: no-repeat;
+    background-position: right 70%;
+  }
+}
+.section--bg-gear{
+  @media(min-width: 1400px){
+    background-image: url("../img/bg/gear.png");
+    background-repeat: no-repeat;
+    background-position: left 55%;
+  }
+}
+.section--bg-cloud{
+  @media(min-width: 1400px){
+    background-image: url("../img/bg/cloud.png");
+    background-repeat: no-repeat;
+    background-position: right 50%;
+  }
+}
+.section--portfolio{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+

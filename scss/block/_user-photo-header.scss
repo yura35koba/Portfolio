@@ -1,0 +1,79 @@
+.user-photo{
+  overflow: hidden;//что бы картинка не выходила за блок
+  width: 110px;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 33px;
+
+
+  //если картинка не будет загружаться
+  background-image: url("../img/placeholders/user-avatar-placeholder-small.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+//для скругление углов картинки
+  -webkit-border-radius: 55px;
+  -moz-border-radius: 55px;
+  border-radius: 55px;
+
+  @media(min-width: 1200px) {
+    margin-bottom: 27px;
+  }
+}
+.user-photo--big{
+  margin: 0;
+  padding: 0;
+  display: none;
+
+
+  @media (min-width: 1200px) {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 205px;
+    height: 205px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-image: url("../img/placeholders/user-avatar-placeholder-big.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+  .user-photo--section__small{
+    display: none;
+
+    @media(min-width: 768px) {
+      margin: 0;
+      padding: 0;
+      display: block;
+      background-image: url("../img/placeholders/user-avatar-placeholder-small.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;//что бы картинка не выходила за блок
+      width: 110px;
+      height: 110px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media(min-width: 1200px){
+      display: none;
+    }
+  }
+.user-photo_shadow {
+  box-shadow: 0px 0px 40px 0px rgba(72, 119, 159, 1);
+}
+
+.col-md-xl--pd-0 {
+  padding: 0;
+  margin: 0;
+}

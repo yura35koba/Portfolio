@@ -1,0 +1,165 @@
+.section-form{
+  margin: 0;
+  padding: 0;
+}
+.section-form__title{
+  font-size: 24px;
+  font-family: "Noto Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.contact-form__input{
+  color: #00599a;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px 21px;
+  border: 3px solid #FFFFFF;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  outline: none;//убераем обвотку форм заданую браузером по умолчанию
+  -webkit-transition: border-color 0.3s ease-in;
+  -moz-transition: border-color 0.3s ease-in;
+  -ms-transition: border-color 0.3s ease-in;
+  -o-transition: border-color 0.3s ease-in;
+  transition: border-color 0.3s ease-in;
+
+
+  &:hover, &:focus, &:active {
+      border-style: solid;
+      border-width: 3px;
+      border-color: rgb(162, 209, 244);
+  }
+}
+.contact-form__textarea{
+  color: #00599a;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  height: 128px;
+  margin-bottom: 10px;
+  border: 3px solid  #FFFFFF;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding: 10px 19px;
+  outline: none;//убераем обвотку форм заданую браузером по умолчанию
+
+  -webkit-transition: border-color 0.3s ease-in;
+  -moz-transition: border-color 0.3s ease-in;
+  -ms-transition: border-color 0.3s ease-in;
+  -o-transition: border-color 0.3s ease-in;
+  transition: border-color 0.3s ease-in;
+
+  &:hover, &:focus, &:active {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(162, 209, 244);
+  }
+}
+@media(min-width: 992px){
+  .contact-form__bg-pencil{
+    position: relative;
+  }
+  .contact-form__bg-pencil:after{
+    position: absolute;
+
+    display: block;
+    width: 203px;
+    height: 153px;
+    content: "";
+
+    background-image: url("../img/bg/pencil.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    @media(min-width: 992px){
+      left: 60%;
+      top: 70%;
+    }
+    @media(min-width: 1100px){
+      left: 70%;
+      top: 80%;
+    }
+  }
+}
+.contact-form__submit{
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 8px 47px 12px;
+  border: 4px solid #FFFFFF;
+  border-radius: 28px;
+  background-color: transparent;
+  outline: none;//убераем обвотку форм заданую браузером по умолчанию
+  cursor: pointer;
+
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+
+  &:hover, &:focus{
+    background-color: #FFFFFF;
+    color: #065a97;
+  }
+
+  @media(min-width: 768px){
+    font-size: 20px;
+    display: inline-block;
+    width: auto;
+  }
+  @media(min-width: 1200px){
+    font-size: 22px;
+  }
+}
+
+label.error{
+  background-color: #FF0000;
+  position: relative;
+  display: block;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-top: 3px;
+  margin-bottom: 17px;
+
+  $cornerSize: 12px;
+
+  &:after{
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 40px;
+
+    width: 0;
+    height: 0;
+    margin-left: -$cornerSize;
+    border-bottom: $cornerSize solid #FF0000;
+    border-right: $cornerSize solid transparent;
+    border-left: $cornerSize solid transparent;
+  }
+}
+
+.contact-form__success {
+  background-color: #FFFFFF;
+  display: block;
+  color: green;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  margin-bottom: 17px;
+}

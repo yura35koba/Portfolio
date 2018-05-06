@@ -1,0 +1,19 @@
+$main-hd-bg: #FFFF00;
+$img-head:#20B2AA;
+$head-tx: #90EE90;
+$nav-tx: #fff;
+$head-bt: #FF0000;
+$info-tx: #0000CD;
+
+.info--block{
+  background: $main-hd-bg;
+  margin-top: 20px;
+  h1, h2 {
+    margin: 0;
+    padding: 0;
+    color: $info-tx;
+  }
+  h1{
+    margin-bottom: 10px;
+  }
+}

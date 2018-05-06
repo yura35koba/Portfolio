@@ -1,0 +1,126 @@
+.footer-bg{
+  margin: 0;
+  padding: 0;
+  padding-top: 55px;
+  padding-bottom: 45px;
+
+  @media(min-width: 1200px){
+    padding-top: 75px;
+    padding-bottom: 80px;
+  }
+}
+.footer-bg__title{
+  margin: 0;
+  padding: 0;
+  font-size: 34px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-bottom: 10px;
+
+  @media(min-width: 1200px){
+    margin-bottom: 35px;
+  }
+}
+.footer-bg__slogan p {
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+  @media(min-width: 1200px){
+    margin-bottom: 30px;
+  }
+}
+
+
+
+.footer-bg__info-contact{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+  .caption {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    color: rgb(162, 209, 244);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .footer__link{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-bottom: 1px dotted rgb(255, 255, 255);
+
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    &:hover, &:focus, &:active {
+      color: #ffe400;
+      border-bottom: 1px dotted #ffe400;
+    }
+  }
+  .footer__link--live{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+  }
+}
+.footer-bg__info-contact--mb-0{
+  margin-bottom: 0;
+}
+.m-b-27{
+  margin-bottom: 27px;
+
+  @media(min-width: 1200px){
+    margin-bottom: 43px;
+  }
+}
+.social-title{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+  color: rgb(162, 209, 244);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+}
+.social-icons{
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  cursor: pointer;
+  a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    &:hover, &:focus, &:active {
+      color: #ffe400;
+    }
+
+  }
+  .fa{
+    margin-right: 25px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+.mb-0 {
+  margin-bottom: 0;
+}

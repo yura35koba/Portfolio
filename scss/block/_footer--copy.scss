@@ -1,0 +1,40 @@
+.footer-copy{
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  background: #003f6d;
+  color: #76a7cb;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+
+.footer-copy__title{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.footer-copy__description p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 26px;
+  color: #76a7cb;
+   a{
+     color: #76a7cb;
+     cursor: pointer;
+     &:hover, &:focus, &:active {
+       color: #ffe400;
+       text-decoration: none;
+     }
+   }
+
+}
+.webcad{
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
